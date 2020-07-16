@@ -19,7 +19,7 @@
 {% endif %}
 
 {% if jekyll.environment == "production" %}
-  {% assign repo_name = '/{{ site.repo_name }}' %}
+  {% assign repo_name = site.repo_name | prepend:'/' %}
 {% else %}
   {% assign repo_name = '' %}
 {% endif %}
