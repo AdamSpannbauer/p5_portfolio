@@ -8,5 +8,5 @@ A quickly hacked together p5js portfolio based on: [https://github.com/github/pe
 Live at: [https://adamspannbauer.github.io/p5_portfolio/](https://adamspannbauer.github.io/p5_portfolio/)
 
 <p align='center'>
-  <img src='/readme/screenshot.png' width=80%>
+  <a href='https://adamspannbauer.github.io/p5_portfolio/'><img src='/readme/screenshot.png' width=80%></a>
 </p>
