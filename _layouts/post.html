@@ -41,7 +41,7 @@
       <div class="mx-auto" style="max-width: 900px;">
         <div class="f4 {% if site.style == 'dark' %}text-white{% endif %} mb-6">
           <div class="f4 {% if site.style == 'dark' %}text-white{% endif %}">
-            <p class="f5"><a href="{{ site.url }}{{ site.baseurl | append:'/' }}{{ repo_name }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
+            <p class="f5"><a href="/{{ repo_name }}" class="d-flex flex-items-center {% if site.style == 'dark' %}text-white{% endif %}">{% octicon chevron-left height:16 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Home %}Home</a></p>
             {{ post_body }}
           </div>
         </div>
