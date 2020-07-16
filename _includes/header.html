@@ -10,13 +10,20 @@
 
 {% assign user = site.github.owner %}
 
-{% if page.path contains '_sketches' %}
+{% if page.path contains '_posts' %}
   {% assign page_title = page.title %}
   {% assign meta_description = site.description | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% else %}
   {% assign page_title = user.name %}
   {% assign meta_description = site.description | strip_html | strip_newlines | xml_escape | truncate: 300 %}
 {% endif %}
+
+{% if jekyll.environment == "production" %}
+  {% assign repo_name = '/{{ site.repo_name }}' %}
+{% else %}
+  {% assign repo_name = '' %}
+{% endif %}
+
 <!doctype html>
 <html class="min-height-full">
   <head>
