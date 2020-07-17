@@ -4,7 +4,7 @@ style: dark
 profile_pic: https://scontent-atl3-1.cdninstagram.com/v/t51.2885-19/s320x320/47447651_2043689225923450_1978481452316098560_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com&_nc_ohc=gIZK6kPl0h0AX8QizwD&oh=a63e539c42201b9cdaf69bae6c5da2f6&oe=5F3A6FBF
 page_title: sketches i've made
 repo_name: p5_portfolio
-desc: 
+desc: Click a sketch to see it in action. If you're on mobile, I'd recommend viewing these on my Instagram.
 
 plugins:
   - jekyll-octicons
@@ -36,7 +36,7 @@ social_media:
   twitter: ASpannbauer
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: https://adamspannbauer.github.io/
   # youtube: your_username
 
 topics:
